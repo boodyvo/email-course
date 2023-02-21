@@ -1,0 +1,46 @@
+.card__checked {
+    background-color: #74f9d2;
+}
+
+.card__not--checked {
+    background-color: #f2f1f1;
+}
+
+.card__wrong {
+    background-color: #fb5858;
+}
+
+.card {
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    padding: 0;
+    margin: 5px;
+    width: 20%;
+    height: 100%;
+    transition: transform 0.3s;
+    transform-style: preserve-3d;
+}
+
+.card--flipped {
+    transform: rotateY(180deg);
+}
+
+.card__side {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+    backface-visibility: hidden;
+}
+
+.card__side--front {
+    z-index: 2;
+}
+
+.card__side--back {
+    background-color: #8473bc;
+    transform: rotateY(180deg);
+}

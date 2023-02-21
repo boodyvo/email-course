@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px 10px 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  width: 100%;
+}
+
+.score {
+    font-size: 26px;
+    font-weight: 200;
+    margin: 10px auto auto;
+    padding: 10px;
+}
+
+.control-btn {
+    font-size: 20px;
+    max-width: 200px;
+    margin: 20px auto auto;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    cursor: pointer;
+}
